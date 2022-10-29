@@ -9,6 +9,7 @@ class Ball:
 		self.image = pygame.image.load("small_tennis.png")
 		self.rect = self.image.get_rect()
 
+
 def main():
 	pygame.init()
 	screen = pygame.display.set_mode((WIDTH, HEIGHT))
