@@ -8,8 +8,16 @@ class Ball:
 	def __init__(self):
 		self.image = pygame.image.load("small_tennis.png")
 		self.rect = self.image.get_rect()
+		self.speed = [0,1]
+	
 
+	def update(self):
+		self.move()
 
+	def move(self):
+		self.rect = self.rect.move(self.speed)
+
+		
 def main():
 	pygame.init()
 	screen = pygame.display.set_mode((WIDTH, HEIGHT))
