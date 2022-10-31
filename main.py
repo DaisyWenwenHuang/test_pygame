@@ -1,5 +1,6 @@
 import pygame
 
+# size of the game window
 WIDTH = 800
 HEIGHT = 600
 BACKGROUND = (0, 0, 0)
