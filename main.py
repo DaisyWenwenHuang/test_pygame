@@ -8,6 +8,7 @@ class Ball:
 	def __init__(self):
 		self.image = pygame.image.load("small_tennis.png")
 		self.rect = self.image.get_rect()
+		# speed of moving
 		self.speed = [0,1]
 	
 
