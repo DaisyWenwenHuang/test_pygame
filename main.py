@@ -27,7 +27,7 @@ def main():
 	while True:
 		screen.fill(BACKGROUND)
 		screen.blit(ball.image, ball.rect)
-		ball.upate()
+		ball.update()
 		pygame.display.flip()
 		clock.tick(60)
 
